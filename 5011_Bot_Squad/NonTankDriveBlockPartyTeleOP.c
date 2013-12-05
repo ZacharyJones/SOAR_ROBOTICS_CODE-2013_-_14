@@ -87,6 +87,9 @@ task main()
 		motor[arm]= -(P*error + I * integral);// PID equations
 
 
+		servo[twirler]=joystick.joy2_y1
+	
+	
 			//int armInput=joystick.joy2_y2;
 			//if(armInput < 0) {
 			//	armInput/=4;
