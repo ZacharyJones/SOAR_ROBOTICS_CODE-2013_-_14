@@ -14,7 +14,7 @@
 
 #include "JoystickDriver.c"  //Include file to "handle" the Bluetooth messages.
 #include "drivers/hitechnic-irseeker-v2.h"
-int position = 0;
+int position = 0; //Might have worked if this was within the If statements and had a if(_dir==1){int position =1 } and so on
 
 void initializeRobot()
 
